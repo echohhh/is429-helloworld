@@ -1,0 +1,18 @@
+application: abovecloudsmu # this is actually the folder name
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+- url: /helloworld001.*
+  script: helloworld001.py
+- url: /helloworld002.*
+  script: helloworld002.py
+- url: /helloworld003.*
+  script: helloworld003.py
+- url: /helloworld004.*
+  script: helloworld004.py
+- url: /helloworld005.*
+  script: helloworld005.py
